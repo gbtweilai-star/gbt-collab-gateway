@@ -1,0 +1,6 @@
+"""Enables ``python -m gbt_collab_gateway``."""
+
+from .cli import main
+
+if __name__ == "__main__":
+    raise SystemExit(main())
